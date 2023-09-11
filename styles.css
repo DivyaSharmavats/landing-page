@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#but1{
+    width: 140px;
+    height: 70px;
+    margin-right: 40px;
+    color:black;
+    margin-top:400px;
+    background-color:rgb(255, 142, 225);
+    border-radius: 30%;
+    border-width: 5px;
+    border-top-style: groove;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(343, 27%, 68%);
+    display: flex;
+    
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: brown; */
+    
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-image: url(https://images.unsplash.com/photo-1520763185298-1b434c919102?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color:yellow; */
+} 
+#text{
+    height:200px ;
+    width: 300px;
+    position: absolute;
+    /* background-color: blueviolet; */
+    top: 40%;
+    left: 2%;
+    /* transform: translate(0,-50%); */
+}
+#text>h1,h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 50px;
+    color: black;
+}
+#smalldiv{
+    height: 340px;
+    width: 300px;
+    background-color: blue;
+    position:absolute;
+    right: 10%;
+    top: 70%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZsb3dlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#text2{
+    margin-top: 40px;
+}
+
+#text2 h1{
+    
+    font-size: 50px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    letter-spacing: 5px;
+}
+#navbar{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+    
+}
+#navbar>ul>li{
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
